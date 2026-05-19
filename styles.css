@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +15,22 @@
     background-color: #650002;
     color: white;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+   z-index: 100;
+}
 
+#servicios,
+#nosotros{
+    scroll-margin-top: 150px;
+}#contacto{
+    scroll-margin-top: 100px;
+}
 .wrap {
     text-align: center;
 }
